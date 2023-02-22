@@ -1,0 +1,12 @@
+    cb1 = customtkinter.CTkCheckBox(master=frame2, text="Small",
+                                    font=("Roboto Black900",12,"bold"),
+                                    corner_radius=6,
+                                    border_width=3,
+                                    border_color="#260028",
+                                    fg_color="#260028",
+                                    hover_color="#eed77a",
+                                    checkmark_color="#eed77a",
+                                    text_color="#e8ca78",
+                                    text_color_disabled=("gray60", "gray45"),
+    )
+    cb1.grid(padx=500, pady=530)
